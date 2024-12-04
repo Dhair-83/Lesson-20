@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3><center>Multiplication</center></h3>
+    <p style="color:greenyellow; font-family: 'Times New Roman', Times, serif;">31x15/20-6x6</p>
+    <script>
+        var res=function(l,m,k,d)
+        {return m*k/l-d*d}
+        document.write(res(20,31,15,6))
+    </script>
+    <br><br>
+     <button type="button" onclick="funjs()">This is Multiplication</button>
+     <p style="color:blue;">14 x 2 x 83</p>
+     <p id="funnj" style="color:cadetblue; font-family: cursive;"></p>
+     <script>
+         var g=14
+         var m=2
+         function funjs()
+         {
+             var l=83
+             document.getElementById("funnj").innerHTML= l*m*g
+         }
+     </script>
+</body>
+</html>
